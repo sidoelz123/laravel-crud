@@ -46,13 +46,13 @@
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
                     <strong>Tujuan Ke</strong>
-                    <input type="text" name="tujuan" class="form-control" placeholder="{{ $project->tujuan }}">
+                    <input type="text" name="tujuan" class="form-control" value="{{$project->tujuan}}">
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
                     <strong>Tanggal Surat</strong>
-                    <input type="date" name="tgl_surat" class="form-control" placeholder="{{ $project->tgl_surat }}">
+                    <input type="date" name="tgl_surat" class="form-control" value="{{ $project->tgl_surat }}">
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 text-center">
